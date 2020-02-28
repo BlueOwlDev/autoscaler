@@ -3,7 +3,7 @@ variable "registry" {
 }
 
 locals {
-  tag = "1.12.5-patched-${builtins.gitRevisionShort}"
+  tag = "1.13.9-patched-${builtins.gitRevisionShort}"
   image_name = "cluster-autoscaler"
 }
 
